@@ -12,6 +12,8 @@ import ShoppingFeature from '../features/shopping-feature/ShoppingFeature'
 import BeforeAfter from '../features/before-after/BeforeAfter'
 import Media from '../features/media/Media'
 import WhyTrust from '../features/why-trust/WhyTrust'
+import Slider from '../features/video-slider/Slider'
+import Footer from '../features/footer/Footer'
 
 
 
@@ -22,14 +24,16 @@ function HomePage() {
         <Hero/>
         <Trust/>
         <Review/>
+        <Media/>
         <CorePrincipleSection/>
         <RxBlueprint/>
         <Product/>
         <ShoppingFeature/>
         <GrowthTransition/>
         <BeforeAfter/>
-        <Media/>
-        <WhyTrust/>
+        {/* <Slider/> */}
+        <Footer/>
+        {/* <WhyTrust/> */}
     </Navbar>
   )
 }
