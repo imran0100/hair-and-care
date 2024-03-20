@@ -1,0 +1,41 @@
+.btn-test {
+  padding: 0 25px;
+  border-radius: 25px;
+  height: 45px;
+  background: white;
+  border: 1px solid #00d5ff;
+}
+.nav-container {
+ width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  padding: 10px 0 10px 0;
+  font-size: 1.4rem;
+  margin: 0 auto;
+}
+.nav-logo {
+  width: 220px;
+  padding-left: 15px;
+}
+.nav-link {
+  display: flex;
+  gap: 1rem;
+}
+.nav-right{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.nav-icons{
+    display: flex;
+    gap: 10px;
+    padding-right: 15px;
+}
+
+@media (min-width: 1200px){
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}}

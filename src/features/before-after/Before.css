@@ -1,0 +1,13 @@
+.before{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.dem0-container{
+    display: flex;
+    gap: 2rem;
+background-color: #E9EDEE;
+padding: 2rem 3rem 2rem 3rem;
+}
+
+
